@@ -23,9 +23,8 @@ architecture tb of t1l_aragones_larin_tb is
 	component t1l_aragones_larin is
 		port(alarm:out std_logic;
 		i: in std_logic_vector(5 downto 0)); -- this stands for the gates
-		-- i(0) and i(1) are Boggis in and out buzzer respectively
-		-- i(2) and i(3) are Bunce in and out buzzer respectively
-		-- i(4) and i(5) are Bean in and out buzzer respectively
+		-- i(0), i(1), and i(2) are Boggis in, Bunce in, Bean in Buzzer respectively
+		-- i(3), i(4), and i(5) are Boggis out, Bunce out, Bean out Buzzer respectively
 	end component t1l_aragones_larin;
 	
 begin
